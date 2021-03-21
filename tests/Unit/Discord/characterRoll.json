@@ -1,0 +1,39 @@
+{
+  "id": "823203091305463849",
+  "type": 0,
+  "content": "",
+  "channel_id": "823200762133348413",
+  "author": {
+    "id": "432610292342587392",
+    "username": "Mudae",
+    "avatar": "29cb28fbf65a3958105026ab03abd306",
+    "discriminator": "0807",
+    "public_flags": 65536,
+    "bot": true
+  },
+  "attachments": [],
+  "embeds": [
+    {
+      "type": "rich",
+      "description": "Hunter \u00d7 Hunter\nReact with any emoji to claim!\n(Read **$togglereact**)",
+      "color": 16751916,
+      "author": {
+        "name": "Retz"
+      },
+      "image": {
+        "url": "https:\/\/media.discordapp.net\/attachments\/472313197836107780\/650839496719466503\/ADdmMN7.png",
+        "proxy_url": "https:\/\/images-ext-1.discordapp.net\/external\/IzGzsnsXC-DHxo-P_dCJUz7cHjqAvSAzEit_ewkLzV8\/https\/media.discordapp.net\/attachments\/472313197836107780\/650839496719466503\/ADdmMN7.png",
+        "width": 225,
+        "height": 350
+      }
+    }
+  ],
+  "mentions": [],
+  "mention_roles": [],
+  "pinned": false,
+  "mention_everyone": false,
+  "tts": false,
+  "timestamp": "2021-03-21T14:35:11.341000+00:00",
+  "edited_timestamp": null,
+  "flags": 0
+}

@@ -49,7 +49,8 @@ class RunBotCommand extends Command
                             continue;
                         }
                         // Handle without update. We'll update after the loop.
-                        $this->info(json_encode($message, JSON_PRETTY_PRINT));
+                        $this->info(json_encode($message->getRawAttributes()));
+                        $this->line(json_encode($message, JSON_PRETTY_PRINT));
                     }
                 });
             }
