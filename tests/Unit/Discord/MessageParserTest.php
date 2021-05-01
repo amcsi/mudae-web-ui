@@ -17,7 +17,7 @@ class MessageParserTest extends UnitTestCase
     {
         $instance = new MessageParser();
         $message = $this->createMessageByJson(file_get_contents(__DIR__ . '/characterRoll.json'));
-        $result = $instance->parse($message);
+        $result = $instance->parse($message)->mudaeEmbed;
 
         self::assertInstanceOf(MudaeEmbed::class, $result);
 
@@ -34,7 +34,7 @@ class MessageParserTest extends UnitTestCase
     {
         $instance = new MessageParser();
         $message = $this->createMessageByJson(file_get_contents(__DIR__ . '/characterCheck.json'));
-        $result = $instance->parse($message);
+        $result = $instance->parse($message)->mudaeEmbed;
 
         self::assertInstanceOf(MudaeEmbed::class, $result);
 
